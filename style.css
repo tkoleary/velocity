@@ -50,21 +50,19 @@ td {
 
 summary {
   padding: .25em 1em;
-  background-color: purple;
+  background-color: #222;
   color: #fff;
-  border-bottom: 2px solid purple;
 }
 
 summary:focus {
   outline: none;
-  border-bottom: 2px solid blue;
 }
 
 #header {
+  padding: .5em 1em;
   background-color: purple;
 }
 
-#header,
 #content, 
 #footer {
   padding: 1em;
@@ -89,7 +87,8 @@ summary:focus {
 #header p {
   color: #fff;
   font-weight: 300;
-  margin: 0 0 .25em 0;
+  margin: 0;
+  padding: 0;
 }
 
 #navTable {
