@@ -46,6 +46,7 @@ td {
   border-collapse: collapse;
   padding: 0;
   margin: 0;
+  transition: all .3s ease-in-out;
 }
 
 summary {
@@ -93,11 +94,11 @@ summary:focus {
 
 #navTable {
   width: 100%;
-  border-bottom: 1px solid #999;
 }
 
 #navTable td {
-  border-right: 1px solid #555;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
   padding: 6px 10px;
   font-weight: 500;
 }
