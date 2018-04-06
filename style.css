@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 0.9em;
+  font-family: 'Avenir','Myriad','Arial',sans-serif;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+blockquote {
+  margin: 0 0 1em 0;
+  color: #555;
+  line-height: 150%;
+  padding-right: 1em;
+}
+
+a {
+  color: #9575cd;
+}
+
+img {
+  width: 100%;
+}
+
+table,
+tbody,
+tr,
+td {
+  border-collapse: collapse;
+  padding: 0;
+  margin: 0;
+}
+
+summary {
+  padding: .25em 1em;
+  background-color: purple;
+  color: #fff;
+  border-bottom: 2px solid purple;
+}
+
+summary:focus {
+  outline: none;
+  border-bottom: 2px solid blue;
+}
+
+#header {
+  background-color: purple;
+}
+
+#header,
+#content, 
+#footer {
+  padding: 1em;
+}
+
+#content-header {
+  width: 100%;
+  padding: 1em 0 0;
+}
+
+.container {
+  padding: 1em 0;
+}
+
+#wrapper {
+  min-height: calc(100% -50px);
+  height: auto !important;
+  margin-bottom: 50px;
+}
+
+#header h1,
+#header p {
+  color: #fff;
+  font-weight: 300;
+  margin: 0 0 .25em 0;
+}
+
+#navTable {
+  width: 100%;
+  border-bottom: 1px solid #999;
+}
+
+#navTable td {
+  border-right: 1px solid #555;
+  padding: 6px 10px;
+  font-weight: 500;
+}
+
+#navTable td:hover {
+  background-color: #ddd;
+}
+
+#navTable td a {
+  color: #333;
+  text-decoration: none;
+}
+
+#navTable td a:active {
+  color: purple;
+}
+
+#formatTable {
+  border-top: 1px solid #CCC;
+}
+
+#footerTable {
+  position: fixed;
+  bottom: 0px;
+  height: 50px;
+  border-top: 1px solid #999;
+  background-color: purple;
+  width: 100%;
+}
+
+#footerTable td {
+  border-style: 1px solid #555;
+  padding: 1em;
+  color: #FFF;
+  font-size: 0.9em;
+}
+
+#footerTable td a {
+  color: #FFF;
+  float: right;
+}
+
+.speechDate {
+  width: 120px;
+}
+
+.libraryList {
+  font-size: 0.9em;
+  line-height: 1.75em;
+}
+
+.leadLine {
+  color: #660066;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.paSection {
+  background-color: #FBEEF9;
+  border-top: 1px #C9B solid;
+  padding: 6px 0px 4px 6px;
+}
+
+.paText {
+  line-height: 1.75em;
+}
+
+.paBlock {
+  padding-left: 20px;
+}
+
+.searchMatches {
+  color: #AD2477;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 0px 0px 8px 0px;
+}
+
+.fileTitle {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.fileName {
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.fileAbstract {
+  font-size: 0.9em;
+}
+
+.fileURL, 
+.fileSize, 
+.downloadTime {
+  font-size: 0.9em;
+  color: #008000;
+}
+
+.fileSize {
+  color: #36C;
+}
+
+.downloadTime {
+  color: #999;
+}
+
+.faqLI {
+  line-height: 1.3em;
+}
+
+.bluefont {
+  color: #1f497d;
+}
+
+#file_list {
+  border:1px solid #bfbda7;
+  margin:0;
+  padding:0;
+  font-size:0.9em;
+}
+
+#file_list td {
+  font-size:0.9em;
+}
+
+.sortable_column {
+  text-decoration: underline;
+  color: #AD2477;
+}
+
+.more {
+  text-align: right;
+}
+
+.contact p {
+  margin-bottom: 0;
+}
+
+@media (min-width: 0px) {
+  .right {
+    float: none;
+    width: 100%;
+  }
+  .left {
+    float: none;
+    width: 100%;
+  }
+  #navTable td {
+    display: block;
+    float: left;
+    text-align: left;
+    width: 100%;
+  }
+}
+ 
+@media (min-width: 600px) {
+  .right {
+    float: right;
+    width: 40%;
+  }
+  .left {
+    float: left;
+    width: 60%;
+  }
+    #navTable td {
+    display: table-cell;
+    float: none;
+    width: auto;
+    text-align: center;
+  }
+}
